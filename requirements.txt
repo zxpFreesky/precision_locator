@@ -1,0 +1,19 @@
+# Core - MCP Server
+mcp>=1.0.0
+
+# Browser Automation
+playwright>=1.40.0
+
+# LLM Integration
+langchain-openai>=0.1.0
+langchain-core>=0.2.0
+
+# Environment Configuration
+python-dotenv>=1.0.0
+
+# Local Vision (Level 0 - Optional, zero-token OCR + Template Matching)
+# Note: PaddleOCR 3.x has breaking API changes, pin to 2.x
+paddleocr>=2.7.0,<3.0.0
+paddlepaddle>=2.5.0
+opencv-python>=4.8.0
+numpy>=1.24.0
