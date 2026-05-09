@@ -1,0 +1,32 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Debug & Test Artifacts
+locator_debug.txt
+use_mcp_log.txt
+debug_screenshot_*.png
+step*.png
+test_output.txt
+
+# OS
+.DS_Store
+Thumbs.db
